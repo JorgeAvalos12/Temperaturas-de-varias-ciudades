@@ -48,3 +48,11 @@ for ciudad, promedios in promedios_semanales.items():
     print(f"{ciudad}:")
     for i, promedio in enumerate(promedios):
         print(f"  Semana {i + 1}: {promedio:.2f} °C")
+
+# pruebas
+def pruebas():
+    datos_prueba = {
+        "Quito": [[20, 22, 21], [19, 20, 23], [24, 25, 22], [21, 20, 13]],
+        "Loja": [[30, 32, 31], [29, 30, 33], [34, 35, 32], [31, 30, 29]],
+        "Cuenca": [[]]
+    }
